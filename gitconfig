@@ -1,11 +1,14 @@
 [user]
   email = osmnshkh@gmail.com
   name = Osman Sheikh
+[github]
+  user = osmnshkh
 [alias]
   co = checkout
   st = status
   br = branch
   w = whatchanged
+  amend = commit --amend
 [apply]
   whitespace = nowarn
 [color]
@@ -21,13 +24,11 @@
   default = upstream
 [remote "origin"]
   push = HEAD
-[github]
-  user = osmnshkh
 [diff]
   ignoresubmodules = untracked
 [core]
-  excludesfile = /Users/osman/.gitignore
+  excludesfile = ~/.gitignore
 [heroku]
   account = personal
 [pull]
-	rebase = true
+  rebase = true
